@@ -73,6 +73,8 @@ Main (unreleased)
   - `discovery.puppetdb` - service discovery from PuppetDB. (@captncraig)
   - `otelcol.processor.discovery` adds resource attributes to spans, where the attributes 
   keys and values are sourced from `discovery.*` components. (@ptodev)
+  - `otelcol.processor.spanlogs` - creates logs from spans. It is the flow mode equivalent 
+  to static mode's `automatic_logging` processor. (@ptodev)
 
 ### Bugfixes
 
